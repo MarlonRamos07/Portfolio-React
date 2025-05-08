@@ -1,0 +1,72 @@
+.Container {
+    display: grid;
+    grid-template-columns: repeat(2, 32rem); 
+    grid-template-rows: repeat(2, 32rem);   
+    gap: 12rem; 
+    justify-content: center;
+    margin-top:7rem;
+  }
+  
+  .borda__card {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    width:32rem;
+    height:37rem;
+    padding:1.5rem;
+    box-shadow: 0 0 15px rgb(199, 193, 193);
+    border: 1px solid #334155;
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    display:flex;
+    flex-direction: column;
+    
+
+  }
+  
+  .card {
+    padding: 15px;
+  }
+  
+  .card__titulo {
+   text-align: center;
+  }
+  
+  .projeto__image {
+    width:31.25rem;
+    height: 16.625rem;
+  }
+
+.project__title__container{
+    display:flex;
+    justify-content: start;
+    padding-left:18rem;
+    margin-top:7rem;
+}
+
+.project__title{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.card__desc{
+  font-family: Poppins;
+  font-weight: 600;
+  font-size: 1.75rem;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+
+.card__title__text{
+  font-family: Poppins;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 89%;
+  letter-spacing: 0%;
+  margin-top:-0.2rem;
+  margin-bottom:3rem;
+}
+  

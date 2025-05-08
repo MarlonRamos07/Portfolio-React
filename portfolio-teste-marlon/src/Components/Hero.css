@@ -1,0 +1,45 @@
+.Hero{
+    display:flex;
+    flex-direction: column;
+    align-items: start;
+    margin-left:10rem;
+    gap:1rem;
+    margin-top:10rem;
+}
+
+.Hero__titulo{
+    font-family: 'Poppins';
+    color: white;
+    font-size: 2.2rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.Hero__texto{
+    color: #BCBCBC;
+    font-family: 'Poppins';
+    font-size: 1.65rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    width:70rem;
+}
+
+.btn-sabermais{
+    width:12.5rem;
+    height:5rem;
+    border-radius: 83px;
+    background: linear-gradient(270deg, #13ADC7 0%, #6978D1 66.67%, #945DD6 100%);
+    border:none;
+    cursor:pointer;
+}
+
+.btn-sabermais a {
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    font-family: 'Poppins';
+
+}

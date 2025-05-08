@@ -1,0 +1,20 @@
+.ButtonClick{
+    width: 12.5rem;
+    height:3.75rem;
+    border-radius: 83px;
+    background: linear-gradient(270deg, #13ADC7 0%, #6978D1 66.67%, #945DD6 100%);
+    border:none;
+    cursor:pointer;
+}
+
+button a {
+    text-decoration: none;
+    color:white;
+    font-family: 'Poppins';
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 1.25rem;
+    line-height: 100%;
+    letter-spacing: 0%;
+    
+}

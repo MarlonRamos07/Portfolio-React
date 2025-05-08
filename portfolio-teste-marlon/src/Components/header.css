@@ -1,0 +1,38 @@
+header{
+    padding: 1.25rem 2.5rem;
+    box-sizing: border-box;
+    width:100%;
+}
+
+.Nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    position:relative;
+}
+
+
+.Nav__list{
+    display:flex;
+    list-style: none;
+    gap:4rem;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.Nav__list a {
+    text-decoration: none;
+    color:white;
+}
+
+.Nav__icons{
+    position:absolute;
+    right:10rem;
+}
+.Nav__icons__list{
+    display:flex;
+    list-style: none;
+    gap:2rem;
+}
+
